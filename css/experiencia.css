@@ -23,6 +23,8 @@
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
+  text-decoration: none;
+  color: #141414;
 }
 
 .empresa::before {

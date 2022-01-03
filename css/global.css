@@ -23,6 +23,13 @@ img {
   display: block;
 }
 
+code{
+  background: #e3e3e3;
+  font-weight: bold;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
 .container{
   max-width: 1200px;
   padding: 40px 20px;
@@ -38,6 +45,40 @@ img {
   line-height: 1;
   text-transform: uppercase;
   max-width: 4ch;
+}
+
+.inline-icon{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+  padding: 24px 0;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #141414;
+  border-radius: 4px;
+  text-decoration: none;
+  border: none;
+  transition: background .2s, transform .2s;
+}
+
+.btn i {
+  color: #fff;
+}
+
+.btn:hover{
+  background:#67dd0a;
+  transform: translateY(-4px);
 }
 
 @media (max-width: 800px){
