@@ -60,6 +60,11 @@
   color: #525252;
 }
 
+.empresa-texto strong i {
+  position: absolute;
+  margin-left: 4px;
+}
+
 .empresa-habilidades{
   display: flex;
   flex-wrap: wrap;

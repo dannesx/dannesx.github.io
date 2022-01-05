@@ -69,7 +69,7 @@ code{
   border-radius: 4px;
   text-decoration: none;
   border: none;
-  transition: background .2s, transform .2s;
+  transition: background .2s;
 }
 
 .btn i {
@@ -78,7 +78,17 @@ code{
 
 .btn:hover{
   background:#67dd0a;
-  transform: translateY(-4px);
+}
+
+.btn-top{
+  position: fixed;
+  bottom: -100px;
+  right: 20px;
+  transition: background .2s, bottom .2s;
+}
+
+.btn-top.visible {
+  bottom: 20px;
 }
 
 @media (max-width: 800px){
