@@ -91,6 +91,16 @@ code{
   bottom: 20px;
 }
 
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 100%;
+  background-color: #67dd0a;
+  border-radius: 4px;
+}
+
 @media (max-width: 800px){
   .subtitulo {
     font-size: 3rem;
