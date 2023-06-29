@@ -1,0 +1,64 @@
+aside {
+	border: 1px solid var(--white-op);
+	border-radius: 1.5rem;
+	padding: 2.5rem 3rem;
+}
+
+aside header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+aside header h1 {
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+aside header span {
+	text-align: right;
+	opacity: 1;
+	font-size: 0.8rem;
+	line-height: 1;
+}
+
+aside main {
+	text-align: center;
+}
+
+aside main > * {
+	display: block;
+}
+
+aside main .profile {
+	width: 100%;
+	aspect-ratio: 1;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 1.5rem;
+	margin: 1rem 0;
+}
+
+aside main h2 {
+	letter-spacing: 1px;
+}
+
+aside main .socials {
+	margin: 1.5rem 0;
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+aside footer button {
+	width: 100%;
+	padding: 1rem;
+	transition: filter 0.2s;
+}
+
+aside footer button i {
+	color: var(--dark);
+	opacity: 1;
+	margin-right: 0.25rem;
+}
