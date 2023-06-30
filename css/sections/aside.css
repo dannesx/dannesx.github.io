@@ -1,9 +1,3 @@
-aside {
-	border: 1px solid var(--white-op);
-	border-radius: 1.5rem;
-	padding: 2.5rem 3rem;
-}
-
 aside header {
 	display: flex;
 	justify-content: space-between;
@@ -13,7 +7,6 @@ aside header {
 aside header h1 {
 	line-height: 1;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
 aside header span {
@@ -37,15 +30,19 @@ aside main .profile {
 	object-fit: cover;
 	object-position: top;
 	border-radius: 1.5rem;
-	margin: 1rem 0;
+	margin: 2rem 0;
 }
 
-aside main h2 {
-	letter-spacing: 1px;
+aside main .name {
+	margin-bottom: 0.25rem;
+}
+
+aside main .location i {
+	margin-right: 0.25rem;
 }
 
 aside main .socials {
-	margin: 1.5rem 0;
+	margin: 2rem 0;
 	display: flex;
 	justify-content: center;
 	gap: 0.5rem;
@@ -53,7 +50,7 @@ aside main .socials {
 
 aside footer button {
 	width: 100%;
-	padding: 1rem;
+	padding: 0.8rem;
 	transition: filter 0.2s;
 }
 
