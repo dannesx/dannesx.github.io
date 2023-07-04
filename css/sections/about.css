@@ -1,0 +1,8 @@
+#about {
+	grid-row: 2;
+}
+
+#about header h5 cite {
+	font-size: 1.5rem;
+	opacity: 0.5;
+}
